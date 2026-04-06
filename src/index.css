@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root { color-scheme: dark; font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+html { scroll-behavior: smooth; }
+body { margin: 0; min-width: 320px; background: #020617; color: white; overflow-x: hidden; }
+.section-card { @apply rounded-[28px] border border-white/10 bg-white/5 backdrop-blur-xl shadow-soft; }
+.blue-border { @apply border border-sky-400/20; }
+.glow-text { text-shadow: 0 0 18px rgba(96, 165, 250, 0.35); }
